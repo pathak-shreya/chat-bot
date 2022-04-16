@@ -19,10 +19,18 @@
     font-family: 'Times New Roman', Times, serif;
     
 }
-.collapsible:hover{
+/* .collapsible:hover{
     text-shadow: 1px 1px 8px  wheat;
     box-shadow: -4px -4px 8px rgb(106, 250, 122);
 
+} */
+.collapsible:hover{
+    animation:pulsate 1s ease-in-out;
+}
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 15px #5aca5c,0 0 20px #5aca5c;
+    }
 }
 
 .content{
